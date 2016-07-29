@@ -1,0 +1,31 @@
+---
+
+start:
+    text: "You awake in a dark room surrounded by computers, what do you do?"
+    choices:
+        walk_around: "Walk around"
+        sleep: "Sleep"
+
+walk_around:
+    text: "You walk around the room but hit your pinky on a desk! Ouch! What do you do?"
+    choices:
+        light: "Turn on the light"
+        walk_around_more: "Try to be a badass and don't turn on the light"
+
+sleep:
+    text: "You sleep on the floor but never wake up. The end."
+    choices: []
+
+light:
+    text: "You turn on the light and keep walking around, however you find that the room leads nowhere!"
+    choices:
+        try_to_escape: "Try to escape"
+
+walk_around_more:
+    text: "You hit your whole foot this time."
+    choices:
+        light: "Turn on the light"
+
+try_to_escape:
+    text: "You try to escape for weeks until you die of starvation. The End."
+    choices: []
